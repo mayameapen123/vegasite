@@ -1,0 +1,400 @@
+/* Banner font */
+.body2 {
+  background-color:#F1F3FA; 
+}
+h1 {
+  font-family: Lora;
+  font-weight: semi-bold;
+  font-size: 44px;
+  color: white;
+}
+
+/* Quote font + section headers */
+h2 {
+  font-family: Lora;
+  font-weight: Bold;
+  font-size: 38px;
+  color: black;
+  letter-spacing: 1.2px;
+}
+
+h7 {
+  font-family: Lora;
+  font-style: italic;
+  font-weight: 400;
+  font-size: 32px;
+  color: black;
+  letter-spacing: 1.2px;
+  text-align: center;
+  
+}
+
+/* Tiny cards */
+h3 {
+  font-family: Lora;
+  font-weight: 800;
+  font-size: 16px;
+  color: black;
+  letter-spacing: 1.2px;
+  margin-bottom: 30px;
+}
+/* Main cards */
+h4 {
+  font-family: Lora;
+  font-weight: 800;
+  font-size: 20px;
+  color: black;
+  letter-spacing: 1.2px;
+}
+
+/* Small text */
+h5 {
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 1.5px;
+  font-size: 14px;
+  color: white;
+}
+/* Services subheading  */
+h8 {
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 0.5px;
+  font-size: 16px;
+  font-weight: 400;
+  color: black;
+  margin-bottom: 30px;
+}
+
+
+p {
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 0.5px;
+  font-size: 16px;
+  color: black;
+  line-height: 26px;
+}
+
+p2 {
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 0.5px;
+  font-size: 14px;
+  color: black;
+}
+.bannerimg {
+  width: 100%;
+  z-index: -1;
+}
+
+
+.section_2{
+  background-color: #F1F3FA;
+  background-image: url('Comp2.gif');
+  background-size: 100vw;
+  width: 100vw;
+  height: 1000px;
+}
+
+.section_5{
+  background-color: #F1F3FA;
+  background-image: url('comp3.gif');
+  background-size: 100vw;
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 1000px;
+}
+
+.section_9{
+  background-color: white;
+  width: 100vw;
+  
+}
+
+.section_6 {
+  top: -300px;
+  background-color: #F1F3FA;
+}
+
+.section_7 {
+  position: relative;
+  top: -320px;
+  
+  z-index: 5;
+  
+  height: 380px;
+}
+
+
+navbar-trans {
+  background: transparent; }
+
+.container{
+  margin-left: 60px;
+  margin-right: 90px;
+  z-index: 2;
+  position: absolute;
+  top: 60%;
+  
+  
+}
+
+.container2{
+  margin-left: 90px;
+  margin-right: 90px;
+  z-index: 2;
+  
+}
+.line_bg{
+  width: 100px;
+  height: 10px;
+  background-color: #B1010A;
+  margin-bottom: 30px;
+  margin-top: 10px;
+}
+
+.red {
+  color: #B1010A;
+  font-weight: 600;
+
+}
+
+.quote{
+  width: 800px;
+  text-align: center;
+ margin: auto;
+  width: 60%;
+}
+
+
+
+.spacing_1{
+  padding-top: 150px;
+}
+
+.spacing_2{
+  padding-top:50px;
+}
+
+
+button {
+  background-color: #B1010A; /* Green */
+  border: none;
+  color: white;
+  padding: 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  
+  cursor: pointer;
+  border-radius: 30px;
+  width: 160px;
+  
+}
+
+.b_center{
+margin: 0 auto;
+    display: block;
+}
+
+button:hover {
+  background-color: rgb(116, 1, 7); /* Green */
+}
+.section_3{
+  position: relative;
+  top: -300px;
+  height: 450px;
+  width: 100%;
+  z-index: 5;
+  background-color: white;
+}
+
+.padbox {
+  width: 100%;
+  height: 306px;
+  padding-top: 20px;
+  padding-left: 22px;
+  background-color: white;
+  box-shadow: 0 0 10px -2px #c5c5c5;
+  border-radius: 5px;
+  
+}
+
+.aboutcard{
+    width: 100%;
+  height: 356px;
+  padding: 20px;
+  background-color: white;
+  box-shadow: 0 0 10px -2px #e7e7e7;
+  border-radius: 5px;
+  border: none;
+}
+
+.padbox:hover {
+
+  background-color: #F1F3FA;
+
+  
+}
+
+
+.section_4{
+  height: 850px;
+  background-color: #F1F3FA;
+}
+
+.footer {
+   background-image: url("footer-02.jpg");
+  background-color: #cccccc;
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+ul {
+  font-weight: 100;
+  display: block;
+  list-style-type: disc;
+  margin-top: 1em;
+  margin-bottom: 1 em;
+  margin-left: 0;
+  margin-right: 0;
+  color:white;
+  padding-left: 20px;
+  line-height: 30px;
+}
+
+.nospace {
+margin-left: 0;
+  margin-right: 0;
+  color:white;
+  padding-left: 20px;
+  line-height: 30px;
+}
+
+li{
+  font-size: 14px;
+}
+
+.navbar .transparent .navbar-inverse .navbar-inner {
+    background-color: rgba(92, 184, 92, 0.8);
+    color: white;
+}
+
+
+.navbar {
+  color:white;
+}
+
+.section_1{
+ 
+  margin-top: -80px; 
+}
+
+.logo{
+  color: rgb(226, 0, 0);
+  font-size: 30px;
+  letter-spacing: 1.5px;
+  font-weight: 600;
+
+}
+
+
+
+
+.main_wrapper{
+  display: flex;
+}
+
+.sidebar{
+  flex: 1;
+  height: 660px;
+ padding-left:80px;
+  background-color: #F1F3FA;
+}
+
+.main-content {
+  flex: 3.5;
+  height: 600px;
+
+  overflow: auto;
+  padding: 80px;
+  
+}
+
+
+
+
+.ml-60{
+  margin-left:60;
+}
+
+.mr-60{
+  margin-right:60;
+}
+
+.squ{
+  width: 100%;
+  height: 100px;
+  background-color: green;
+}
+
+.redbold {
+color: rgb(204, 0, 10);
+font-weight: bold;
+}
+
+.smalltext{
+  margin-bottom: 20px;
+}
+
+//collapsive 
+.collapsible {
+  
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+.collapsible:hover {
+  background-color: #F1F3FA;
+}
+
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  padding-bottom: 30px;
+}
+
+.linetop{
+  width: 100%;
+  height: 1px;
+  background-color: black;
+}
+
+.blueish {
+  background-color: #F1F3FA;
+  padding-bottom: 50px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  color: white;
+  opacity: 50%;
+  text-decoration: none;
+}
+
+ul.bulletstyle {
+list-style-image: url("checked.png");
+}
+
